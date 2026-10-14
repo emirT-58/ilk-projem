@@ -1,52 +1,102 @@
-/* Sayfanın arka planını ve genel yazı tipini değiştiriyoruz */
+/* Genel Sayfa Ayarları */
 body {
-    background-color: #c9c0c0; /* Açık gri şık bir arka plan */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern yazı tipi */
+    background-color: #0d1117; /* GitHub koyu temasından ilham alan şık bir arka plan */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Her şeyi ortala */
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
     margin: 0;
+    color: #c9d1d9;
 }
 
-/* Başlık stili */
-h1 {
-    color: #1877f2; /* Mavi renk */
+/* Beyaz/Gri Ana Kart Kutusu */
+.kart {
+    background-color: #161b22;
+    padding: 40px;
+    border-radius: 16px; /* Köşeleri yuvarlatır */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); /* Kutuya derinlik ve gölge verir */
+    width: 350px;
+    text-align: center;
+    border: 1px: solid #30363d;
+}
+
+/* İsim Başlığı */
+.isim {
+    color: #58a6ff;
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+
+/* Unvan */
+.unvan {
+    color: #8b949e;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Açıklama Metni */
+.aciklama {
+    font-size: 15px;
+    line-height: 1.5; /* Satır aralıklarını rahatlatır */
+    margin-bottom: 20px;
+}
+
+/* Liste Alanı Tasarımı */
+.liste-alani {
+    text-align: left;
+    background-color: #0d1117;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.liste-alani h3 {
+    font-size: 16px;
+    color: #58a6ff;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
-/* Paragraf stili */
-p {
-    color: #555555; /* Koyu gri metin */
-    font-size: 18px;
+.liste-alani ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #8b949e;
 }
 
-/* Buton tasarımı */
+.liste-alani li {
+    margin-bottom: 5px;
+}
+
+/* Buton Tasarımı */
 button {
-    background-color: #28a745; /* Yeşil arka plan */
-    color: blue; /* Beyaz yazı */
+    background-color: #238636; /* GitHub Yeşili */
+    color: white;
     border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 8px; /* Köşeleri yuvarlat */
-    cursor: pointer; /* Üzerine gelince el simgesi çıksın */
-    transition: 0.3s;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-/* Butonun üzerine fareyle gelindiğinde */
 button:hover {
-    background-color: #218838; /* Koyu yeşil olsun */
+    background-color: #2ea043;
 }
 
-/* Link tasarımı */
+/* Link Tasarımı */
 a {
-    margin-top: 20px;
-    color: #1877f2;
-    text-decoration: none; /* Altındaki çizgiyi kaldır */
+    display: block;
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 14px;
     font-weight: bold;
 }
 
 a:hover {
-    text-decoration: underline; /* Üzerine gelince altı çizilsin */
+    text-decoration: underline;
 }
