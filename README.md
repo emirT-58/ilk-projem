@@ -1,0 +1,2 @@
+# ilk-projem
+yeni başlangıçlarrr
