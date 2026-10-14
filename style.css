@@ -1,0 +1,52 @@
+/* Sayfanın arka planını ve genel yazı tipini değiştiriyoruz */
+body {
+    background-color: #c9c0c0; /* Açık gri şık bir arka plan */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern yazı tipi */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Her şeyi ortala */
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Başlık stili */
+h1 {
+    color: #1877f2; /* Mavi renk */
+    margin-bottom: 10px;
+}
+
+/* Paragraf stili */
+p {
+    color: #555555; /* Koyu gri metin */
+    font-size: 18px;
+}
+
+/* Buton tasarımı */
+button {
+    background-color: #28a745; /* Yeşil arka plan */
+    color: blue; /* Beyaz yazı */
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px; /* Köşeleri yuvarlat */
+    cursor: pointer; /* Üzerine gelince el simgesi çıksın */
+    transition: 0.3s;
+}
+
+/* Butonun üzerine fareyle gelindiğinde */
+button:hover {
+    background-color: #218838; /* Koyu yeşil olsun */
+}
+
+/* Link tasarımı */
+a {
+    margin-top: 20px;
+    color: #1877f2;
+    text-decoration: none; /* Altındaki çizgiyi kaldır */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Üzerine gelince altı çizilsin */
+}
